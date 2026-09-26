@@ -6,7 +6,7 @@ let kataTerpendek = namaBuah[0];
 
 // 3. Melakukan perulangan untuk memeriksa setiap elemen
 for (let i = 1; i < namaBuah.length; i++) {
-  // 4. Memeriksa apakah angka saat ini lebih kecil dari nilaiTerendah
+  // 4. Memeriksa apakah angka saat ini lebih kecil dari kataTerpendek
   if (namaBuah[i] < kataTerpendek) {
     // Jika ya, perbarui nilaiTerendah
     kataTerpendek = namaBuah[i];
