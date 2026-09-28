@@ -1,11 +1,11 @@
 // Data awal: Daftar nama pengguna
-const daftarBuah = ["jambu", "pisang", "apel", "durian", "semangka"];
+const paraPengguna = ["andi", "budi", "cici", "dani"];
 
 // Menggunakan .map() untuk menambahkan prefix "Pengguna: " ke setiap nama
-const buahPanjang = daftarBuah.filter((buah) => {
-  return buah.length > 5; // Misalnya, hanya buah yang memiliki nama lebih dari 5 karakter
+const pengggunaKapital = paraPengguna.map((nama) => {
+  return nama.toUpperCase();
 });
 
 // Menampilkan hasil
-console.log("Buah Asli:", daftarBuah);
-console.log("Buah > 5 huruf:", buahPanjang);
+console.log("Nama Asli:", paraPengguna);
+console.log("Nama Kapital:", pengggunaKapital);
